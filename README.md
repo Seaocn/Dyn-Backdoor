@@ -1,1 +1,1 @@
-# Dyn-Backdoor-Backdoor-Attack-on-Dynamic-Link-Prediction
+# Dyn-Backdoor
