@@ -1,0 +1,56 @@
+DNC emails network, part of the Koblenz Network Collection
+===========================================================================
+
+This directory contains the TSV and related files of the dnc-temporalGraph network: This is the directed network of emails in the 2016 Democratic National Committee email leak.  The Democratic National Committee (DNC) is the formal governing body for the United States Democratic Party.  A dump of emails of the DNC was leaked in 2016.  Nodes in the network correspond to persons in the dataset.  A directed edge in the dataset denotes that a person has sent an email to another person.  Since an email can have any number of recipients, a single email is mapped to multiple edges in this dataset, resulting in the number of edges in this network being about twice the number of emails in the dump.
+
+
+More information about the network is provided here: 
+http://konect.cc/networks/dnc-temporalGraph
+
+Files: 
+    meta.dnc-temporalGraph -- Metadata about the network 
+    out.dnc-temporalGraph -- The adjacency matrix of the network in whitespace-separated values format, with one edge per line
+      The meaning of the columns in out.dnc-temporalGraph are: 
+        First column: ID of from node 
+        Second column: ID of to node
+        Third column (if present): weight or multiplicity of edge
+        Fourth column (if present):  timestamp of edges Unix time
+        Third column: edge weight
+        Fourth column: timestamp of the edge
+
+
+Use the following References for citation:
+
+@MISC{konect:2017:dnc-temporalGraph,
+    title = {DNC emails network dataset -- {KONECT}},
+    month = oct,
+    year = {2017},
+    url = {http://konect.cc/networks/dnc-temporalGraph}
+}
+
+
+@inproceedings{konect,
+	title = {{KONECT} -- {The} {Koblenz} {Network} {Collection}},
+	author = {Jérôme Kunegis},
+	year = {2013},
+	booktitle = {Proc. Int. Conf. on World Wide Web Companion},
+	pages = {1343--1350},
+	url = {http://dl.acm.org/citation.cfm?id=2488173},
+	url_presentation = {https://www.slideshare.net/kunegis/presentationwow},
+	url_web = {http://konect.cc/},
+	url_citations = {https://scholar.google.com/scholar?cites=7174338004474749050},
+}
+
+@inproceedings{konect,
+	title = {{KONECT} -- {The} {Koblenz} {Network} {Collection}},
+	author = {Jérôme Kunegis},
+	year = {2013},
+	booktitle = {Proc. Int. Conf. on World Wide Web Companion},
+	pages = {1343--1350},
+	url = {http://dl.acm.org/citation.cfm?id=2488173},
+	url_presentation = {https://www.slideshare.net/kunegis/presentationwow},
+	url_web = {http://konect.cc/},
+	url_citations = {https://scholar.google.com/scholar?cites=7174338004474749050},
+}
+
+
